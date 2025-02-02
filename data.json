@@ -1,4 +1,7 @@
 {
+  "title": "Propulsion Course Notes",
+  "description": "A course about propulsion...",
+  "author": "Werner J. A. Dahm",
   "sections": [
     {
       "title": "Aircraft (Airbreathing) Propulsion",
@@ -86,5 +89,8 @@
         }
       ]
     }
-  ]
+  ],
+  "head": {
+    "css": "./tailslim.css"
+  }
 }
