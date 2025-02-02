@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="./tailslim.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="bg-amber-30 grid grid-cols-1">
+    <div class="flex justify-center mt-8">
+        <h1 class="text-3xl content-center font-bold">
+            Werner J.A. Dahm's Course
+        </h1>
+    </div>
+    <div class="flex justify-center italic text-lg">
+        A course on something interesting...
+    </div>
+    <main>
+        <div class="ml-10 mt-20">
+            <ul class="list-none">
+                {{#sections}}
+                    <li class="mb-10">
+                        <div class="text-lg font-bold">{{ title }}</div>
+                        <div class="italic">{{ summary }}</div>
+                        <ul class="ml-12 mt-3 list-disc">
+                            {{#topics}}
+                                <li>{{name}}</li>
+                            {{/topics}}
+                        </ul>
+                    </li>
+                {{/sections}}
+            </ul>
+        </div>
+    </main>
+    <footer class="italic text-sm flex justify-center mt-8 mb-10">
+        <div>Copyright &#169; Werner J.A. Dahm 2024</div>
+    </footer>
+</div>
+</body>
+</html>

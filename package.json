@@ -1,0 +1,21 @@
+{
+  "name": "wdahm_propulsion_site",
+  "version": "0.0.1",
+  "description": "Propulsion course site",
+  "scripts": {
+    "build-css": "tailwindcss --input main.css --output dist/tailslim.css",
+    "build-page": "mustache data.json index.mustache dist/index.html",
+    "build": "npm run build-css && npm run build-page",
+    "dev": "concurrently --kill-others \"tailwindcss --input main.css --output dist/tailslim.css --watch\" \"watch 'npm run build-page' ./ --filter=filter-page.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.16",
+    "mustache": "^4.2.0"
+  }
+}

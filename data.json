@@ -1,0 +1,90 @@
+{
+  "sections": [
+    {
+      "title": "Aircraft (Airbreathing) Propulsion",
+      "summary": "Technology that uses atmospheric air to generate thrust.",
+      "topics": [
+        {
+          "name": "Airbreathing Propulsion Thrust Analysis"
+        },
+        {
+          "name": "Nozzle Exit State: Under-Expanded, Fully-Expanded, and Over-Expanded"
+        },
+        {
+          "name": "Equivalent Exit Velocity"
+        },
+        {
+          "name": "Propulsive Efficiency, Thermal Efficiency, and Overall Efficiency"
+        },
+        {
+          "name": "Types of Airbreathing Propulsion Systems"
+        },
+        {
+          "name": "Propellers: Actuator Disk Theory"
+        },
+        {
+          "name": "Propellers: Blade Element Theory"
+        },
+        {
+          "name": "Propeller Performance Charts"
+        }
+      ]
+    },
+    {
+      "title": "Physical Thermodynamics",
+      "topics": [
+        {
+          "name": "Mass Properties of Atoms and Molecules"
+        },
+        {
+          "name": "Momentum Properties of Atoms and Molecules"
+        },
+        {
+          "name": "The “Ideal” Gas Law"
+        },
+        {
+          "name": "Ordered and Disordered Translational Molecular Motions: Static vs. Total States"
+        },
+        {
+          "name": "Energy Properties of Atoms and Molecules"
+        },
+        {
+          "name": "Specific Heats and Ratio of Specific Heats"
+        },
+        {
+          "name": "Enthalpy and Total Enthalpy"
+        },
+        {
+          "name": "Enthalpy Changes and the MVT Specific Heat"
+        },
+        {
+          "name": "Total and Static Temperature Relations"
+        },
+        {
+          "name": "Molecular Energy Levels"
+        },
+        {
+          "name": "Thermodynamic Entropy"
+        },
+        {
+          "name": "Reversible and Irreversible Energy Changes"
+        },
+        {
+          "name": "First Law of Thermodynamics"
+        },
+        {
+          "name": "Second Law of Thermodynamics"
+        },
+        {
+          "name": "Thermodynamic State Diagrams"
+        },
+        {
+          "name": "Total Pressure Loss due to Irreversibility"
+        },
+        {
+          "name": "Isentropic Model of the Troposphere"
+        }
+      ]
+    }
+  ]
+}
