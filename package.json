@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Propulsion course site",
   "scripts": {
-    "build-css": "tailwindcss --input main.css --output dist/tailslim.css",
-    "build-page": "mustache data.json index.mustache dist/index.html",
+    "build-css": "tailwindcss --input main.css --output docs/tailslim.css",
+    "build-page": "mustache data.json index.mustache docs/index.html",
     "build": "npm run build-css && npm run build-page",
-    "dev": "concurrently --kill-others \"tailwindcss --input main.css --output dist/tailslim.css --watch\" \"watch 'npm run build-page' ./ --filter=filter-page.js\""
+    "dev": "concurrently --kill-others \"tailwindcss --input main.css --output docs/tailslim.css --watch\" \"watch 'npm run build-page' ./ --filter=filter-page.js\""
   },
   "author": "",
   "license": "ISC",
