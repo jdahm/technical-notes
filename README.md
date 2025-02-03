@@ -22,3 +22,7 @@ In either case, all files necessary to serve the website will be in the `dist/` 
 1. Edit the code, and rebuild the site using the commands in the [Executing](#executing) section.
 2. `git commit -a -m "What the change does"`
 3. `git commit push`
+
+## Deployments
+
+The site is deployed using a GitHub Actions Workflow to Pages.
